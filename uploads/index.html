@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" >
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word document to pdf</title>
+    <p style="text-align:center;">
+    <img src="./word-to-pdf.jpg" width="500" height="333" class="center">
+    </p>
+</head>
+<body style="background:url(./bg.jpg)">
+    <h1>Choose file to upload</h1>
+    <br>
+
+    <form action="/docxtopdf" method="post" enctype="multipart/form-data">
+    <div style="text-align:left;">
+
+        <input type="file" name="file" required id="" style="font-size: 80px;">
+        <br style = "line-height:100;">        
+        <h1>Click here to download</h1>
+
+        <input type="submit" value="Download PDF File" style="font-size: 80px ;background-color:rgb(219, 27, 171)" >
+    </div>
+    </form>
+</body>
+</html>
